@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
 
 const App: React.FC = () => {
   return (

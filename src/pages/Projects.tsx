@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, Folder } from 'lucide-react';
-import type { Project } from '../types';
+import type { Project } from '../types/types';
 
 const projects: Project[] = [
   {

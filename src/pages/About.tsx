@@ -1,6 +1,6 @@
 import React from 'react';
 import { Code2, Server, Layout, Zap, Users } from 'lucide-react';
-import type { Skill } from '../types';
+import type { Skill } from '../types/types';
 
 const skills: Skill[] = [
   { name: 'React & Next.js', category: 'Frontend', level: 95 },

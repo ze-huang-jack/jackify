@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
-import type { BlogPost } from '../types';
+import type { BlogPost } from '../types/types';
 
 const posts: BlogPost[] = [
   {
