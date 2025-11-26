@@ -1,4 +1,10 @@
 {
   "name": "Jackify - Personal Portfolio",
-  "description": "A modern, tech-focused personal portfolio website for Jack, featuring projects, blog posts, and contact information built with React and Tailwind CSS."
+  "description": "A modern, tech-focused personal portfolio website for Jack, featuring projects, blog posts, and contact information built with React and Tailwind CSS.",
+  "author": "Jack Huang",
+  "siteUrl": "https://jackifyio.pages.dev/",
+  "twitter": "@canwekissandhug",
+  "keywords": ["portfolio","react","tailwind","projects"],
+  "themeColor": "#0ea5e9",
+  "locale": "en-US"
 }
