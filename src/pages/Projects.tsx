@@ -10,7 +10,7 @@ const projects: Project[] = [
     technologies: ['React', 'TypeScript', 'D3.js', 'WebSockets'],
     imageUrl: 'https://picsum.photos/800/600?random=1',
     demoUrl: '#',
-    repoUrl: '#'
+    repoUrl: 'https://github.com/ze-huang-jack/jackifying'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ const projects: Project[] = [
     technologies: ['Next.js', 'Tailwind', 'Gemini API', 'Firebase'],
     imageUrl: 'https://picsum.photos/800/600?random=2',
     demoUrl: '#',
-    repoUrl: '#'
+    repoUrl: 'https://github.com/ze-huang-jack/TliasManagement'
   },
   {
     id: '3',
@@ -28,7 +28,7 @@ const projects: Project[] = [
     technologies: ['React Native', 'Redux Toolkit', 'Node.js'],
     imageUrl: 'https://picsum.photos/800/600?random=3',
     demoUrl: '#',
-    repoUrl: '#'
+    repoUrl: 'https://github.com/ze-huang-jack/sky-take-out'
   },
 ];
 
