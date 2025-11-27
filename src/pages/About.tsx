@@ -31,6 +31,10 @@ const values = [
 
 const About: React.FC = () => {
   return (
+    <>
+      <meta name="description" content="关于 Jack 的更多信息：长期主义、价值投资、AI、技术实践。" />
+      <meta property="og:title" content="About | Jackify" />
+      <meta property="og:description" content="长期主义者 Jack 的背景、经验与个人理念。" />
     <section id="about" className="py-24 bg-slate-900/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -87,6 +91,7 @@ const About: React.FC = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

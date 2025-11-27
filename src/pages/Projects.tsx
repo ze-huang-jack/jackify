@@ -1,6 +1,5 @@
 import React from 'react';
 import { ExternalLink, Github, Folder } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
 import type { Project } from '../types/types';
 
 const projects: Project[] = [
