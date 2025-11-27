@@ -35,18 +35,6 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
   return (
-    <>
-      <Helmet>
-        <title>Projects | Jackify - Personal Portfolio</title>
-        <meta name="description" content="Browse my featured projects including real-time analytics dashboards, AI-powered chat applications, and productivity tools built with React, TypeScript, and modern web technologies." />
-        <meta name="keywords" content="projects, portfolio, React, TypeScript, web development, dashboard, AI, mobile app" />
-        <meta property="og:title" content="Projects | Jackify - Personal Portfolio" />
-        <meta property="og:description" content="Browse my featured projects including real-time analytics dashboards, AI-powered chat applications, and productivity tools." />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Projects | Jackify - Personal Portfolio" />
-        <meta name="twitter:description" content="Browse my featured projects including real-time analytics dashboards, AI-powered chat applications, and productivity tools." />
-      </Helmet>
       <section id="projects" className="py-24 bg-slate-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -114,7 +102,6 @@ const Projects: React.FC = () => {
         </div>
       </div>
       </section>
-    </>
   );
 };
 
