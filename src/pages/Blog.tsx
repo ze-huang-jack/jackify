@@ -42,7 +42,7 @@ const Blog: React.FC = () => {
             <div className="w-20 h-1 bg-cyan-500 rounded-full mb-4"></div>
             <p className="text-slate-400">Insights on coding, design, and the tech industry.</p>
           </div>
-          <a href="#" className="text-cyan-400 hover:text-white transition-colors flex items-center gap-1">
+          <a href="http://github.blog/" className="text-cyan-400 hover:text-white transition-colors flex items-center gap-1">
             Read all posts <ArrowRight className="h-4 w-4" />
           </a>
         </div>
