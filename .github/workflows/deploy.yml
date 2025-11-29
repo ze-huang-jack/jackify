@@ -1,0 +1,39 @@
+name: Deploy React App
+
+on:
+  push:
+    branches:
+      - main # 当代码推送到 main 分支时触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      
+      # 设置 Node.js 环境
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' 
+          cache: 'npm' 
+
+      # 安装依赖
+      - name: Install dependencies 🔧
+        run: npm install
+
+      # 构建项目 
+      - name: Build project 🏗️
+        run: npm run build
+
+      # 配置 GitHub Pages 部署
+      - name: Deploy to GitHub Pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # 用于部署的 GitHub Token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 要部署的文件夹 
+          publish_dir: ./dist 
+          # 部署到的分支
+          publish_branch: gh-pages
